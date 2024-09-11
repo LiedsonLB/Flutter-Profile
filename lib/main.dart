@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.green.shade900,
+        backgroundColor: Colors.blueGrey.shade800,
         appBar: AppBar(
           title: Text(widget.title),
         ),
@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 150,
                   fit: BoxFit.cover,
                   image: NetworkImage(
-                    'https://avatars.githubusercontent.com/u/174490?v=4',
+                    'https://avatars.githubusercontent.com/u/108279994?v=4',
                   ),
                 ),
               ),
@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   const FittedBox(
                     child: Text(
-                      'Alcemir Rodrigues',
+                      'Liedson Barros',
                       style: TextStyle(
                         fontFamily: 'Pacifico',
                         height: 1.5,
@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     child: const FittedBox(
                       child: Text(
-                        'FLUTTER DEVELOPER',
+                        'FULLSTACK DEVELOPER',
                         style: TextStyle(
                           height: 1.5,
                           fontSize: 15,
@@ -101,22 +101,22 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       Icon(
                         Icons.phone,
-                        color: Color.fromARGB(255, 17, 124, 53),
+                        color: Colors.black87,
                         size: 24.0,
                         semanticLabel:
                             'Text to announce in accessibility modes',
                       ),
                       Text(
-                        '+55 86 99851-3193',
+                        '+55 86 99863-5571',
                         style: TextStyle(
-                          color: Color.fromARGB(255, 17, 124, 53),
+                          color: Colors.black87,
                         ),
                       ),
                     ],
                   ),
                 ),
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 2),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 2),
                 child: Container(
@@ -131,15 +131,45 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       Icon(
                         Icons.email,
-                        color: Color.fromARGB(255, 17, 124, 53),
+                        color: Colors.black87,
                         size: 24.0,
                         semanticLabel:
                             'Text to announce in accessibility modes',
                       ),
                       Text(
-                        'alcemir@prp.uespi.br',
+                        'liedson.b9@gmail.com',
                         style: TextStyle(
-                          color: Color.fromARGB(255, 17, 124, 53),
+                          color: Colors.black87,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              const SizedBox(height: 2),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 2),
+                child: Container(
+                  width: 300,
+                  height: 60,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                  child: const Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Icon(
+                        Icons.web,
+                        color: Colors.black87,
+                        size: 24.0,
+                        semanticLabel:
+                            'Text to announce in accessibility modes',
+                      ),
+                      Text(
+                        'liedsonbarros.vercel.app',
+                        style: TextStyle(
+                          color: Colors.black87,
                         ),
                       ),
                     ],
