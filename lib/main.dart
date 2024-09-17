@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 60,
                   decoration: BoxDecoration(
                     color: Colors.white,
-                    borderRadius: BorderRadius.circular(30),
+                    borderRadius: BorderRadius.circular(5),
                   ),
                   child: const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         semanticLabel:
                             'Text to announce in accessibility modes',
                       ),
-                      Text(
+                      Text (
                         '+55 86 99863-5571',
                         style: TextStyle(
                           color: Colors.black87,
@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 60,
                   decoration: BoxDecoration(
                     color: Colors.white,
-                    borderRadius: BorderRadius.circular(30),
+                    borderRadius: BorderRadius.circular(5),
                   ),
                   child: const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -154,7 +154,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 60,
                   decoration: BoxDecoration(
                     color: Colors.white,
-                    borderRadius: BorderRadius.circular(30),
+                    borderRadius: BorderRadius.circular(5),
                   ),
                   child: const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
